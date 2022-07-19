@@ -1,0 +1,65 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica; 
+}
+.firstsection{
+  display: flex;
+  background-color: whitesmoke;
+  color: black;
+  justify-content: center;
+  width: 100%;
+}
+.section1body{
+  width: 80%;
+}
+#navbar{
+  display: flex;
+  padding-left: 3.5rem;
+  /* justify-content: center;    */
+}
+#navbar li{
+  list-style-type: none;
+  display: inline-block;
+  padding-left: 20px;
+}
+#navbar a:link{
+  text-decoration: none;
+  color: black;
+}
+.button1, .button2{
+  background-color: rgb(60, 13, 228);
+  color: white;
+  border: 1px solid rgb(60, 13, 228);
+  border-radius: 3px;
+  padding: 10px 10px;
+}
+.right{
+  padding-right: 10rem;
+}
+.fiber{
+  padding-right: 10rem;
+}
+.pcontain{
+  display: flex;
+  padding-left: 7.5rem;
+  margin-top: 3rem;
+}
+.star{
+  flex: 2;
+}
+.hero{
+  flex: 2;
+  width: 50px;
+  height: 450px;
+}
+.create{
+  font-size: 40px ;
+}
+.star p{
+  line-height: 26px;
+}
+.view{
+  color: rgb(90, 25, 211);
+  font-weight: bolder;
+}

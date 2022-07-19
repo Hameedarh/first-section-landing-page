@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: helvetica;
+}
+.section2{
+    background-color: white;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.div2{
+    width: 80%;
+    line-height: 26px;
+    margin-top: 30px;
+    /* justify-content: center; */
+}
+.sec2div h6{
+    color: rgb(60, 13, 228);
+}
+.sec2div h1{
+    font-size: 40px;
+    line-height: 1;
+}
+.iconsdiv{
+    display: flex;
+    gap: 30px;
+    margin-top: 50px;
+}
+.section3{
+    margin-top: 20%;
+    background-color: white;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.div3{
+    width: 80%;
+    background-color: rgb(60, 13, 228);
+    border-radius: 5px;
+    border: 1px solid rgb(60, 13, 228);
+    height: 400px;
+}
+.cdiv{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    /* padding-top: 100px; */
+}
+.cdiv img{
+    margin-top: 100px;
+}
+.diverse{
+    margin-top: 100px;
+    align-content: center;
+    color: white;
+    text-align: justify;
+}
+.diverse button{
+    background-color: white;
+    color: rgb(60, 13, 228);
+    border: white;
+    border-radius: 3px;
+    padding: 10px 10px;
+}    
